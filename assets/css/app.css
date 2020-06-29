@@ -1,0 +1,45 @@
+body{
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.bg-404{
+    background-image: url(../image/bg.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+.error-box{
+    background-image: url(../image/bg-inner.svg);
+    background-size: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.text-error-404{
+    position:relative;
+    font-weight: 900;
+    line-height: normal;
+}
+
+
+
+.message{
+    margin-top: -35px;
+}
+
+.message .title{
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+@media screen and (min-width: 600px){
+    .text-error-404{
+        font-size: 200pt;
+    }
+}
+@media screen and (max-width: 600px){
+    .text-error-404{
+        font-size: 100pt;
+    }
+}
